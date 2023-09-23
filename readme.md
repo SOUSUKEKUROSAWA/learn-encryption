@@ -18,4 +18,4 @@
 - `deactivate`
   - 仮想環境の非アクティブ化
 # unittest
-- `python -m unittest -v test_encription_by_shift.py`
+- `python -m unittest discover`
