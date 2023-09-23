@@ -1,11 +1,9 @@
 name: Auto Test on Push
 
 on:
-  push:
+  pull_request:
     branches:
       - main
-    paths:
-      - '**.py'
 
 jobs:
   test:
