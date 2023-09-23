@@ -1,3 +1,5 @@
+import sys
+sys.path.append('../')
 import unittest
 from unittest.mock import patch
 from encription_by_shift import encrypt, decrypt
